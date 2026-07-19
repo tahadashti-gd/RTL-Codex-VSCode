@@ -1,6 +1,5 @@
 # Codex Persian RTL for VS Code
 
-[![CI](https://github.com/TahaDashti/codex-rtl-vazirmatn/actions/workflows/ci.yml/badge.svg)](https://github.com/TahaDashti/codex-rtl-vazirmatn/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Vazirmatn: OFL-1.1](https://img.shields.io/badge/Vazirmatn-OFL--1.1-green.svg)](THIRD_PARTY_NOTICES.md)
 
