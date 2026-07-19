@@ -1,0 +1,104 @@
+{
+  "name": "codex-rtl-vazirmatn",
+  "displayName": "Codex Persian RTL for VS Code",
+  "description": "Adds a polished right-to-left layout and the Vazirmatn typeface to the Codex extension for VS Code.",
+  "version": "0.2.0",
+  "publisher": "tahadashti",
+  "license": "MIT",
+  "author": {
+    "name": "Taha Dashti"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TahaDashti/codex-rtl-vazirmatn.git"
+  },
+  "homepage": "https://github.com/TahaDashti/codex-rtl-vazirmatn#readme",
+  "bugs": {
+    "url": "https://github.com/TahaDashti/codex-rtl-vazirmatn/issues"
+  },
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "galleryBanner": {
+    "color": "#111827",
+    "theme": "dark"
+  },
+  "extensionKind": [
+    "ui"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
+  "keywords": [
+    "codex",
+    "rtl",
+    "persian",
+    "farsi",
+    "vazirmatn",
+    "right-to-left"
+  ],
+  "activationEvents": [
+    "onCommand:codexRtl.enable",
+    "onCommand:codexRtl.disable",
+    "onCommand:codexRtl.status"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "codexRtl.enable",
+        "title": "Enable RTL and Vazirmatn",
+        "category": "Codex RTL"
+      },
+      {
+        "command": "codexRtl.disable",
+        "title": "Disable and Restore Original Styles",
+        "category": "Codex RTL"
+      },
+      {
+        "command": "codexRtl.status",
+        "title": "Show Status",
+        "category": "Codex RTL"
+      }
+    ],
+    "configuration": {
+      "title": "Codex RTL",
+      "properties": {
+        "codexRtl.fontScale": {
+          "type": "number",
+          "default": 1,
+          "minimum": 0.8,
+          "maximum": 1.5,
+          "description": "Font-size multiplier for the Codex interface."
+        },
+        "codexRtl.rtlInputs": {
+          "type": "boolean",
+          "default": true,
+          "description": "Apply right-to-left direction to text inputs and the prompt editor."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "test": "npm run compile && node --test out/test/*.test.js",
+    "package": "npm run compile && vsce package"
+  },
+  "dependencies": {
+    "@fontsource-variable/vazirmatn": "^5.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/vscode": "^1.90.0",
+    "@vscode/vsce": "^3.6.0",
+    "typescript": "^5.8.3"
+  }
+}

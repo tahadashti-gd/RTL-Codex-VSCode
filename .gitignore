@@ -1,0 +1,10 @@
+node_modules/
+out/
+*.vsix
+*.log
+.agents/
+.codex/
+.env
+.env.*
+.DS_Store
+Thumbs.db
