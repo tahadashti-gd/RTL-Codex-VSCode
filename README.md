@@ -23,10 +23,10 @@ An unofficial companion extension that adds a polished right-to-left layout and 
 
 ## Installation
 
-Download the latest `.vsix` file from [GitHub Releases](https://github.com/TahaDashti/codex-rtl-vazirmatn/releases), then run:
+Download the latest `.vsix` file from [GitHub Releases](https://github.com/TahaDashti/RTL-Codex-VSCode/releases), then run:
 
 ```powershell
-code --install-extension .\codex-rtl-vazirmatn-0.2.0.vsix
+code --install-extension .\RTL-Codex-VSCode-0.2.0.vsix
 ```
 
 You can also open the Extensions view in VS Code, select the three-dot menu, choose **Install from VSIX...**, and select the downloaded file.

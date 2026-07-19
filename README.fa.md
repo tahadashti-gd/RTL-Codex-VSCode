@@ -1,6 +1,6 @@
 # راست‌چین فارسی Codex برای VS Code
 
-[![CI](https://github.com/TahaDashti/codex-rtl-vazirmatn/actions/workflows/ci.yml/badge.svg)](https://github.com/TahaDashti/codex-rtl-vazirmatn/actions/workflows/ci.yml)
+[![CI](https://github.com/TahaDashti/RTL-Codex-VSCode/actions/workflows/ci.yml/badge.svg)](https://github.com/TahaDashti/RTL-Codex-VSCode/actions/workflows/ci.yml)
 [![مجوز MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Vazirmatn: OFL-1.1](https://img.shields.io/badge/Vazirmatn-OFL--1.1-green.svg)](THIRD_PARTY_NOTICES.md)
 
@@ -24,10 +24,10 @@
 
 ## نصب
 
-آخرین فایل `.vsix` را از بخش [GitHub Releases](https://github.com/TahaDashti/codex-rtl-vazirmatn/releases) دریافت و فرمان زیر را اجرا کنید:
+آخرین فایل `.vsix` را از بخش [GitHub Releases](https://github.com/TahaDashti/RTL-Codex-VSCode/releases) دریافت و فرمان زیر را اجرا کنید:
 
 ```powershell
-code --install-extension .\codex-rtl-vazirmatn-0.2.0.vsix
+code --install-extension .\RTL-Codex-VSCode-0.2.0.vsix
 ```
 
 روش دیگر این است که در VS Code وارد بخش Extensions شوید، منوی سه‌نقطه را باز کنید، گزینهٔ **Install from VSIX...** را بزنید و فایل دانلودشده را انتخاب کنید.
